@@ -1,2 +1,4 @@
-# sidon
- 
+# On the Diameter of Finite Sidon Sets
+This repository hosts code for the paper "On the Diameter of Finite Sidon Sets" by Daniel Carter, Zach Hunter, and Kevin O'Bryant. The code verify.py implements the proof strategy described in Section 3 to verify Theorem 3.3. It also automatically verifies Theorem 2.1, giving the same bound as the human proof. The output from running the code is self-explanatory.
+
+Running verify.py requires [Python](https://www.python.org/) version 3.11.6, [NumPy](https://numpy.org/) version 1.26.1 and [SciPy](https://scipy.org/) version 1.11.3, though it probably works fine with other versions as well. The code takes approximately 2 minutes to run on a laptop with an Intel i7-10750H CPU.
